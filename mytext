@@ -1,0 +1,20 @@
+Redux is a Javascript framework.
+Redux is a state container.
+Redux is a collection of all the data that describes the application.
+which is not only includes hot data like list of books but also meta level data like what is the currently selected book.
+
+The special differentiation compared to flux,angular or backbone about the Redux is it maintains all the app data in centralized single object which refers to state.
+
+Reducer - is a function that returns state object
+Creating a reducer is a 2 step process
+step 1, is creating Reducer
+step 2, is wire up the reducer to the application. Will do this in index.js of reducer folder.
+
+Create a react Component
+
+combining react and reducers is done through the react-redux library
+
+we have to promote our react component to container,
+A container is nothing but a react component that has a direct connection to the state  which is managed by redux.
+
+The decision of promoting a react component to a container is depends on whether the component care about the sate or not.
